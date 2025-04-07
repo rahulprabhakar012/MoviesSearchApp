@@ -18,7 +18,6 @@ import com.example.moviessearch.utils.Constants
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import java.util.concurrent.atomic.AtomicBoolean
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {

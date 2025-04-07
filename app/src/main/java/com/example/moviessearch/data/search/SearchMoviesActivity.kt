@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 
 import com.example.moviessearch.R
 import com.example.moviessearch.adapters.MoviesAdapter

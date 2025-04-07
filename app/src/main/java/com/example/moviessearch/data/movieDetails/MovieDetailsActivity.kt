@@ -28,7 +28,7 @@ class MovieDetailsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        Log.i("MovieDetailsActivity", "onCreate()")
         binding = ActivityMovieDetailsBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)

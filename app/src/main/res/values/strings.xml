@@ -19,4 +19,6 @@
 <string name="Movie_Detail">Movie Details</string>
 <string name="airing_today">Airing Today</string>
 <string name="first_air_date">First Air Date</string>
+    <string name="backgroundposter">BackGroundPoster</string>
+    <string name="movieposter">MoviePoster</string>
 </resources>
