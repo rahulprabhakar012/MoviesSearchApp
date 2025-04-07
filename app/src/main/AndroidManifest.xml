@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MoviesSearchApp"
+        android:allowBackup="true"
+        android:icon="@drawable/play_button_svgrepo_com"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/play_button_svgrepo_com"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme"
+            android:label="@string/movies">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".data.movieDetails.MovieDetailsActivity"
+            android:label="@string/Movie_Detail" />
+
+        <activity
+            android:name=".data.search.SearchMoviesActivity"
+            android:label="@string/explore_movies"/>
+        <activity
+            android:name=".data.bookmark.BookMarkActivity"
+            android:label="@string/bookmark_movies"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,22 @@
+<resources>
+<string name="app_name">MOviesSEarch</string>
+<string name="movies">MOviesSEarch</string>
+<string name="movie_poster">Movie Poster</string>
+<string name="overview">Overview:</string>
+<string name="title">Title:</string>
+<string name="status">Status</string>
+<string name="releaseDate">Release Date</string>
+<string name="voteAverage">Vote Average</string>
+<string name="title_activity_movie">Movie</string>
+<string name="tab_text_1">Tab 1</string>
+<string name="tab_text_2">Tab 2</string>
+<string name="top_rated">Top Rated</string>
+<string name="popular">Popular</string>
+<string name="search_movie">Search a movie....</string>
+<string name="explore_movies">Explore Movies</string>
+<string name="bookmark_movies">Bookmark Movies</string>
+<string name="now_playing">Now Playing</string>
+<string name="Movie_Detail">Movie Details</string>
+<string name="airing_today">Airing Today</string>
+<string name="first_air_date">First Air Date</string>
+</resources>
